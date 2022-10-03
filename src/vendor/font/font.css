@@ -17,7 +17,7 @@ src: url('./Satoshi-Medium.woff') format('woff');
 @font-face {
 font-family: 'Satoshi';
 font-style: normal;
-font-weight: 600;
+font-weight: 700;
 font-display: swap;
 src: url('./Satoshi-Bold.woff') format('woff');
 }
