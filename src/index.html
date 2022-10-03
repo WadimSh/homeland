@@ -10,21 +10,21 @@
 <body class="page">
   <header class="header">
       <nav class="header__nav">
-        <ul>
-          <li>
-            <a href="#">About</a>
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#">About</a>
           </li>
-          <li>
-            <a href="#">Project</a>
+          <li class="header__item">
+            <a class="header__link" href="#">Project</a>
           </li>
         </ul>
-        <img class="header__logo" src="<%=require('./imeges/logo.svg')%>" alt="логотип">
-        <ul>
-          <li>
-            <a href="#">Resources</a>
+        <img class="header__logo" src="<%=require('./images/logo.png')%>" alt="логотип">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#">Resources</a>
           </li>
-          <li>
-            <a href="#">Features</a>
+          <li class="header__item">
+            <a class="header__link" href="#">Features</a>
           </li>
         </ul>
       </nav>
@@ -57,7 +57,62 @@
     </section>
   </main>
   <footer class="footer">
-    
+    <div class="footer__wrapper">
+      <div class="footer__caption">
+        <h3 class="footer__title">Your Real Estate Solution</h3>
+        <p class="footer__copyright">&copy; 2022 Homeland</p>
+      </div>
+      <nav class="footer__nav">
+        <div class="footer__section">
+          <span class="footer__subtitle">Service</span>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">About</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Project</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Features</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Resource</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <span class="footer__subtitle">Contact</span>
+          <ul class="footer__list">
+            <li class="footer__item">
+              6800 Sherburne Drive Dallas, TX 75243
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="tel: +7 (123) 45-67-89">(123) 456789</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="mailto: info@homeland.co">info@homeland.co</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <span class="footer__subtitle">Social</span>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="https://www.instagram.com">Instagram</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://www.Linkedin.com">Linkedin</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://www.youtube.com">Youtube</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://www.twitter.com">Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </footer>
 </body>
 </html>
