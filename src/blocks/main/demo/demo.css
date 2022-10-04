@@ -1,0 +1,53 @@
+.demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../../../images/demo.jpg) no-repeat;
+  background-size: cover;
+  height: 830px;
+  width: 100%;
+}
+
+.demo__batton {
+  width: 126px;
+  height: 126px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.demo__icon {
+  background: url(../../../images/play.svg) center center no-repeat;
+  margin-left: 8px;
+  width: 36px;
+  height: 44px;
+}
+
+.demo__pulse {
+  border: 2px solid var(--primary-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  border-radius: 50%;
+  animation-duration: 2.5s;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(0.9, 0.9);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.5, 1.5);
+  }
+}
