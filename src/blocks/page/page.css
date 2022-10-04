@@ -11,4 +11,5 @@
   --black-color: #171717;
   --blue-color: #3d5ddb;
   --grey-color: #e8e8e8;
+  background-color: var(--primary-color);
 }
