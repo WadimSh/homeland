@@ -1,0 +1,39 @@
+.cover {
+  display: flex;
+  justify-content: center;
+  background: var(--blue-color) url(../../../images/cover.png) right bottom/35% 110% no-repeat;
+  color: var(--primary-color);
+}
+
+.cover__wrapper {
+  width: 1140px;
+  margin: 120px 0 190px 0;
+}
+
+.cover__title {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 89px;
+  margin: 0;
+  margin-bottom: 42px;
+  width: 585px;
+}
+
+.cover__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 42px;
+  width: 393px;
+}
+
+.cover__link {
+  color: var(--primary-color);
+  background-color: var(--black-color);
+  padding: 12px 38px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
