@@ -1,0 +1,18 @@
+.comment {
+  display: flex;
+  justify-content: center;
+}
+
+.comment__wrapper {
+  width: 1140px;
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+
+.comment__title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 74px;
+  margin: 0;
+  margin-bottom: 100px;
+}
