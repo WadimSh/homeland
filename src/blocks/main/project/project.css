@@ -1,0 +1,85 @@
+.project {
+  display: flex;
+  justify-content: center;
+}
+
+.project__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1140px;
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+
+.project__title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 74px;
+  margin: 0;
+  margin-bottom: 55px;
+  width: 550px;
+}
+
+.project__grid {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  gap: 30px;
+}
+
+.project__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 548px;
+  gap: 32px;
+}
+
+.project__card-img {
+  height: 360px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.project__card-caption {
+  display: flex;
+  flex-direction: column;
+}
+
+.project__card-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 33px;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.project__card-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.project__card-adress {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 15px;
+}
+
+.project__card-adress::before {
+  content: "";
+  background: url(../../../images/point.svg) top left/18px 18px no-repeat;
+  padding-right: 22px;
+}
+
+.project__card-price {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 29px;
+  color: var(--blue-color);
+}
