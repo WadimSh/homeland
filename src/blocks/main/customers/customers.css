@@ -1,0 +1,43 @@
+.customers {
+  display: flex;
+  justify-content: center;
+}
+
+.customers__wrapper {
+  display: flex;
+  height: 79px;
+  width: 1140px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+
+.customers__item {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.customers__item:nth-child(1) {
+  background-image: url(../../../images/Airbnb.svg);
+  background-position: left center;
+}
+
+.customers__item:nth-child(2) {
+  background-image: url(../../../images/Framer.svg);
+}
+
+.customers__item:nth-child(3) {
+  background-image: url(../../../images/Squarespace.svg);
+  width: 150%;
+}
+
+.customers__item:nth-child(4) {
+  background-image: url(../../../images/Webflow.svg);
+}
+
+.customers__item:nth-child(5) {
+  background-image: url(../../../images/Netflix.svg);
+  background-position: right center;
+}
