@@ -17,6 +17,15 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  transition: all .3s ease;
+}
+
+.demo__batton:hover {
+  transform: scale(1.03, 1.03);
+}
+
+.demo__batton:hover .demo__pulse {
+  display: none;
 }
 
 .demo__icon {

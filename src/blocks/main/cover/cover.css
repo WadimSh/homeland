@@ -36,4 +36,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  transition: all .3s ease;
+}
+
+.cover__link:hover {
+  padding: 15px 38px;
+  border-radius: 5px;
+  color: var(--grey-color);
 }
