@@ -4,6 +4,7 @@
 }
 
 .comment__wrapper {
+  display: flex;
   width: 1140px;
   padding-top: 120px;
   margin-bottom: 120px;
