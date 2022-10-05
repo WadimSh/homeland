@@ -34,10 +34,17 @@
   font-size: 20px;
   line-height: 27px;
   background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size .5s ease;
+}
+
+.right {
+  background-position: 100% 100%;
+}
+
+.left {
+  background-position: 0% 100%;
 }
 
 .header__link:hover {

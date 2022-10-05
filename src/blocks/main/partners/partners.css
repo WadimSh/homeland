@@ -96,6 +96,7 @@
   width: 157px;
   height: 54px;
   margin-bottom: 65px;
+  border: none;
   color: var(--primary-color);
   background-color: var(--black-color);
   font-weight: 400;
