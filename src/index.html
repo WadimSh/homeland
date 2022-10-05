@@ -151,7 +151,18 @@
         </p>
       </div>
       <div class="partners__form-wrapper">
-        
+        <form class="partners__form">
+          <label class="partners__label">Name:
+            <input class="partners__input" placeholder="Sulthon" type="name" name="name" autocomplete="off" minLength="2" maxLength="20" required>
+          </label>
+          <label class="partners__label">Email:
+            <input class="partners__input" placeholder="Sulthon@gmail.com" type="email" name="email" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+          </label>
+          <label class="partners__label">Message:
+            <textarea class="partners__input text" name="message" autocomplete="off" required></textarea>
+          </label>
+          <button class="partners__submit">Sent Mail</button>
+        </form>
       </div>
     </section>
   </main>
