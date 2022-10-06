@@ -111,6 +111,7 @@
 }
 
 .partners__submit:hover {
+  cursor: pointer;
   background-size: 100% 54px;
   color: var(--grey-color);
 }

@@ -41,6 +41,7 @@
 }
 
 .comment__previous-button:hover {
+  cursor: pointer;
   transform: scale(1.1);
 }
 
@@ -53,6 +54,7 @@
 }
 
 .comment__next-button:hover {
+  cursor: pointer;
   transform: scale(0.9);
 }
 
