@@ -4,16 +4,58 @@
 }
 
 .comment__wrapper {
-  display: flex;
+  display: grid;
+  grid-template-areas: 
+    "comment__title comment__button-werapper"
+    "comment__slider comment__slider";
   width: 1140px;
   padding-top: 120px;
   margin-bottom: 120px;
 }
 
 .comment__title {
+  grid-area: comment__title;
   font-weight: 700;
   font-size: 70px;
   line-height: 74px;
   margin: 0;
   margin-bottom: 100px;
+}
+
+.comment__button-werapper {
+  grid-area: comment__button-werapper;
+  justify-self: end;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  height: 56px;
+  margin-top: 18px;
+}
+
+.comment__previous-button {
+  width: 64px;
+  height: 31px;
+  background: url(../../../images/previous.svg) no-repeat;
+  background-size: contain;
+  transition: all .3s ease;
+}
+
+.comment__previous-button:hover {
+  transform: scale(1.1);
+}
+
+.comment__next-button {
+  width: 119px;
+  height: 56px;
+  background: url(../../../images/next.svg) no-repeat;
+  background-size: contain;
+  transition: all .3s ease;
+}
+
+.comment__next-button:hover {
+  transform: scale(0.9);
+}
+
+.comment__slider {
+  grid-area: comment__slider;
 }
