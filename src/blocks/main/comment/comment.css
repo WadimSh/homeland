@@ -58,4 +58,79 @@
 
 .comment__slider {
   grid-area: comment__slider;
+  display: flex;
+  gap: 29px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.comment__item {
+  display: flex;
+  gap: 29px;
+}
+
+.comment__container {
+  display: flex;
+  flex-direction: column;
+  width: 557px;
+}
+
+.comment__quotes {
+  width: 45px;
+  height: 45px;
+  background: url(../../../images/left-quote.svg) no-repeat;
+  background-size: contain;
+  margin-bottom: 32px;
+}
+
+.comment__quotes-title {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 40px;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.comment__quotes-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: 490px;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.comment__account {
+  width: 240px;
+  display: grid;
+  grid-template-areas: 
+    "comment__avatar comment__name"
+    "comment__avatar comment__note";
+}
+
+.comment__avatar {
+  grid-area: comment__avatar;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 18px;
+  object-fit: contain;
+  object-position: top;
+}
+
+.comment__name {
+  grid-area: comment__name;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 25px;
+  padding-top: 7px;
+}
+
+.comment__note {
+  grid-area: comment__note;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
 }
