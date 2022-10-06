@@ -71,6 +71,20 @@
   gap: 29px;
 }
 
+.comment__slider .comment__item {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .comment__container {
   display: flex;
   flex-direction: column;
