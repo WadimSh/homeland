@@ -36,11 +36,15 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  transition: all .3s ease;
+  border: 2px solid var(--black-color);
+  background-image: linear-gradient(var(--blue-color), var(--blue-color));
+  background-repeat: no-repeat;
+  background-size: 0% 46px;
+  background-position: 0% 100%;
+  transition: all .5s ease;
 }
 
 .cover__link:hover {
-  padding: 15px 38px;
-  border-radius: 5px;
+  background-size: 100% 46px;
   color: var(--grey-color);
 }
